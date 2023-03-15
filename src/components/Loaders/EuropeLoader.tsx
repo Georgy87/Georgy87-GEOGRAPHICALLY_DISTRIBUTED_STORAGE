@@ -1,4 +1,5 @@
 import { useContinentLoader } from '@/hooks/useContinentLoader';
+import { Progressbar } from '../ProgressBar/ProgressBar';
 
 import style from './Loader.module.scss';
 
@@ -7,10 +8,11 @@ type PropsType = {
 };
 
 export const EuropeLoader = () => {
-  const { delay, loading, time } = useContinentLoader({ continent: 'europe' });
+  const { delay, loading } = useContinentLoader({ continent: 'europe' });
   return (
-      <div className={style.europeLoader}>
-        <p>{delay && !loading && `Latency: ${delay}`}</p>
-      </div>
+    <div className={style.europeLoader}>
+      <Progressbar delay={delay} continent="europe" />
+      <p>{delay && !loading && `Latency: ${delay}`}</p>
+    </div>
   );
 };

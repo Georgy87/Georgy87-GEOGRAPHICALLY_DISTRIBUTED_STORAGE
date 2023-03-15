@@ -27,8 +27,8 @@ export const indonesiaLocalStorage = {
 export const indonesiaGlobalStorage = [
   { asia: 50 },
   { oceania: 30 },
-  { northAmerica: 250 },
-  { southAmerica: 200 },
+  { northAmerica: 200 },
+  { southAmerica: 170 },
   { europe: 150 },
 ];
 
@@ -41,7 +41,7 @@ export const europeGlobalStorage = [
   { northAmerica: 100 },
   { southAmerica: 120 },
   { asia: 150 },
-  { oceania: 250 },
+  { oceania: 220 },
 ];
 
 export const eastAmericaLocalStorage = {
@@ -65,8 +65,8 @@ export const westAmericaLocalStorage = {
 export const westAmericaGlobalStorage = [
   { northAmerica: 50 },
   { southAmerica: 40 },
-  { europe: 230 },
-  { asia: 250 },
-  { oceania: 300 },
+  { europe: 150 },
+  { asia: 180 },
+  { oceania: 200 },
 ];
 

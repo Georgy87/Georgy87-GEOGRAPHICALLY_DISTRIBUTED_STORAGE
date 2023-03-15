@@ -1,0 +1,26 @@
+.progressPercent {
+  position: absolute;
+  height: 7px;
+  width: 100px;
+  &.asia {
+    right: 25%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+  }
+  &.oceania {
+    right: 12%;
+    top: 65%;
+  }
+  &.southAmerica {
+    left: 18%;
+    top: 65%;
+  }
+  &.northAmerica {
+    left: 18%;
+    top: 25%;
+  }
+  &.europe {
+    left: 55%;
+    top: 25%;
+  }
+}
