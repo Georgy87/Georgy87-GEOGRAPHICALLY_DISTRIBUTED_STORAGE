@@ -32,8 +32,8 @@ export const Header = () => {
     return isHeaderOff;
   }, [isHeaderOff]);
 
-  if (isHeader) return;
-  
+  if (isHeader) return null;
+
   return (
     <header className={styles.header}>
       <div className={styles.headerBlock}>
