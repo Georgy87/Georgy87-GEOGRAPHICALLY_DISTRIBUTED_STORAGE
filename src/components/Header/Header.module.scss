@@ -1,0 +1,31 @@
+.header {
+  .headerBlock {
+    display: flex;
+    position: absolute;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    h1 {
+      font-size: 25px;
+      font-weight: 100;
+    }
+    .headerBtnNext {
+      margin-left: 10px;
+      font-size: 25px;
+      background: none;
+      border: none;
+      color: rgb(98, 98, 227);
+    }
+    .headerBtnStart {
+      margin-left: 10px;
+      font-size: 25px;
+      background: none;
+      border: none;
+      color: rgb(98, 98, 227);
+      &:disabled {
+        color: rgb(204, 204, 235);
+      }
+    }
+  }
+}

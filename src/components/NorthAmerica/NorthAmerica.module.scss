@@ -1,0 +1,36 @@
+.northAmerica {
+  .northAmericaImages {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: "contain";
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}
+.storage {
+  position: absolute;
+  top: 42%;
+  left: 30%;
+  width: 45px;
+  height: 45px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.circle {
+  position: absolute;
+  top: 43%;
+  left: 30%;
+  width: 50px;
+  height: 50px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
