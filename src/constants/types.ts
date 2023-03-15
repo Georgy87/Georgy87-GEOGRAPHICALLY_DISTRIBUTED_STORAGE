@@ -13,6 +13,7 @@ export type TDevices = {
   left?: string;
   right?: string;
   bottom?: string;
+  width?: string;
 };
 
 export type GlobalStorage = {
