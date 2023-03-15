@@ -9,7 +9,6 @@ import { SouthAmerica } from '@components/SouthAmerica/SouthAmerica';
 import { Asia } from '@/components/Asia/Asia';
 import { Header } from '@/components/Header/Header';
 import { GlobalDistribution } from '@/components/GlobalDistribution/GlobalDistribution';
-import { Timer } from '@/components/Timer/Timer';
 
 import styles from '@/styles/Home.module.scss';
 
